@@ -12,6 +12,10 @@
 		9B301E881FDB381B00A44517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E861FDB381B00A44517 /* Main.storyboard */; };
 		9B301E8A1FDB381B00A44517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E891FDB381B00A44517 /* Assets.xcassets */; };
 		9B301E8D1FDB381B00A44517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E8B1FDB381B00A44517 /* LaunchScreen.storyboard */; };
+		9B301E951FDB528700A44517 /* Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B301E941FDB528700A44517 /* Bounce.swift */; };
+		9B301E981FDB53FF00A44517 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E971FDB53FF00A44517 /* rainbow.png */; };
+		9B301E9A1FDB557400A44517 /* rainbow v.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E991FDB557300A44517 /* rainbow v.png */; };
+		9B301E9C1FDB561D00A44517 /* Boxing glove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E9B1FDB561D00A44517 /* Boxing glove.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9B301E891FDB381B00A44517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B301E8C1FDB381B00A44517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B301E8E1FDB381B00A44517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B301E941FDB528700A44517 /* Bounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounce.swift; sourceTree = "<group>"; };
+		9B301E971FDB53FF00A44517 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = SOURCE_ROOT; };
+		9B301E991FDB557300A44517 /* rainbow v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainbow v.png"; sourceTree = SOURCE_ROOT; };
+		9B301E9B1FDB561D00A44517 /* Boxing glove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boxing glove.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		9B301E811FDB381B00A44517 /* punchHomophobes */ = {
 			isa = PBXGroup;
 			children = (
+				9B301E961FDB53E700A44517 /* images */,
 				9B301E821FDB381B00A44517 /* AppDelegate.swift */,
 				9B301E841FDB381B00A44517 /* ViewController.swift */,
+				9B301E941FDB528700A44517 /* Bounce.swift */,
 				9B301E861FDB381B00A44517 /* Main.storyboard */,
 				9B301E891FDB381B00A44517 /* Assets.xcassets */,
 				9B301E8B1FDB381B00A44517 /* LaunchScreen.storyboard */,
 				9B301E8E1FDB381B00A44517 /* Info.plist */,
 			);
 			path = punchHomophobes;
+			sourceTree = "<group>";
+		};
+		9B301E961FDB53E700A44517 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9B301E971FDB53FF00A44517 /* rainbow.png */,
+				9B301E9B1FDB561D00A44517 /* Boxing glove.png */,
+				9B301E991FDB557300A44517 /* rainbow v.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B301E9A1FDB557400A44517 /* rainbow v.png in Resources */,
+				9B301E981FDB53FF00A44517 /* rainbow.png in Resources */,
 				9B301E8D1FDB381B00A44517 /* LaunchScreen.storyboard in Resources */,
 				9B301E8A1FDB381B00A44517 /* Assets.xcassets in Resources */,
 				9B301E881FDB381B00A44517 /* Main.storyboard in Resources */,
+				9B301E9C1FDB561D00A44517 /* Boxing glove.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B301E951FDB528700A44517 /* Bounce.swift in Sources */,
 				9B301E851FDB381B00A44517 /* ViewController.swift in Sources */,
 				9B301E831FDB381B00A44517 /* AppDelegate.swift in Sources */,
 			);
@@ -280,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.diegoFernandes.punchHomophobes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.diegoFernandes.punchHomophobes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
