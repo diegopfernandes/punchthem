@@ -14,7 +14,8 @@ class ViewController: UIViewController
     @IBOutlet weak var topWall: UIImageView!
     @IBOutlet weak var rightWall: UIImageView!
     @IBOutlet weak var bottomWall: UIImageView!
-    @IBOutlet weak var punch: UIImageView!
+    @IBOutlet weak var punch: UIView!
+    
     
     var objectBounce: Bounce!
     var sin, cos: Double!

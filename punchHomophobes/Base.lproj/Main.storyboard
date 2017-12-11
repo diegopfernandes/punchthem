@@ -30,13 +30,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow v.png" translatesAutoresizingMaskIntoConstraints="NO" id="ExJ-VZ-P3j">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="10"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boxing glove.png" translatesAutoresizingMaskIntoConstraints="NO" id="ytW-Hh-qXP">
-                                <rect key="frame" x="353" y="904" width="63" height="71"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPY-vi-y2z">
+                                <rect key="frame" x="353" y="743" width="63" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boxing glove.png" translatesAutoresizingMaskIntoConstraints="NO" id="ytW-Hh-qXP">
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,7 +51,7 @@
                     <connections>
                         <outlet property="bottomWall" destination="bUF-Yk-YrA" id="DKB-Px-vOf"/>
                         <outlet property="leftWall" destination="WLn-JN-phv" id="pQd-Qj-bI7"/>
-                        <outlet property="punch" destination="ytW-Hh-qXP" id="RSh-qp-UUb"/>
+                        <outlet property="punch" destination="UPY-vi-y2z" id="p3j-A4-eoW"/>
                         <outlet property="rightWall" destination="uki-be-JfL" id="WWS-rL-i9D"/>
                         <outlet property="topWall" destination="ExJ-VZ-P3j" id="mNw-Pp-dDy"/>
                     </connections>
