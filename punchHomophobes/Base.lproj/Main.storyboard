@@ -18,27 +18,113 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow.png" translatesAutoresizingMaskIntoConstraints="NO" id="WLn-JN-phv">
-                                <rect key="frame" x="0.0" y="0.0" width="10" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="15" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow.png" translatesAutoresizingMaskIntoConstraints="NO" id="uki-be-JfL">
-                                <rect key="frame" x="758" y="0.0" width="10" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow v.png" translatesAutoresizingMaskIntoConstraints="NO" id="bUF-Yk-YrA">
-                                <rect key="frame" x="0.0" y="1014" width="768" height="10"/>
+                                <rect key="frame" x="758" y="0.0" width="15" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow v.png" translatesAutoresizingMaskIntoConstraints="NO" id="ExJ-VZ-P3j">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="30"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPY-vi-y2z">
-                                <rect key="frame" x="353" y="743" width="63" height="71"/>
+                                <rect key="frame" x="353" y="747" width="63" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boxing glove.png" translatesAutoresizingMaskIntoConstraints="NO" id="ytW-Hh-qXP">
                                         <rect key="frame" x="0.0" y="0.0" width="63" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EmD-2U-5FK">
+                                <rect key="frame" x="259" y="877" width="250" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8_bit_heart_stock_by_xquatrox-d4r844m.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xhv-Bu-XYZ">
+                                        <rect key="frame" x="85" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBY-lB-kE8">
+                                <rect key="frame" x="0.0" y="974" width="768" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2L-2P-6CN">
+                                <rect key="frame" x="259" y="826" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow v.png" translatesAutoresizingMaskIntoConstraints="NO" id="bUF-Yk-YrA">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhZ-K4-n6J">
+                                <rect key="frame" x="234" y="79" width="100" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="50cent.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-uA-Jub">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FFs-a8-r6p">
+                                <rect key="frame" x="353" y="79" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adolph-hitler.png" translatesAutoresizingMaskIntoConstraints="NO" id="xoU-X0-4be">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rtF-HE-deI">
+                                <rect key="frame" x="112" y="79" width="113" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolso.png" translatesAutoresizingMaskIntoConstraints="NO" id="PZZ-JI-Ncc">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="133"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCJ-bK-SgF">
+                                <rect key="frame" x="472" y="79" width="106" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MelGibson.png" translatesAutoresizingMaskIntoConstraints="NO" id="HZL-bw-CnD">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="146"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wrF-d6-OvX">
+                                <rect key="frame" x="594" y="79" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-XF-8C1">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T3b-9n-6vL">
+                                <rect key="frame" x="112" y="279" width="133" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vladimir_putin_PNG45.png" translatesAutoresizingMaskIntoConstraints="NO" id="4ix-OE-r7B">
+                                        <rect key="frame" x="0.0" y="0.0" width="133" height="143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -49,8 +135,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="bottomWall" destination="bUF-Yk-YrA" id="DKB-Px-vOf"/>
+                        <outlet property="bottomWall" destination="F2L-2P-6CN" id="gpJ-Yc-eRb"/>
+                        <outlet property="enemy" destination="yhZ-K4-n6J" id="BIM-Vr-ajn"/>
+                        <outlet property="enemy1" destination="FFs-a8-r6p" id="cAy-8c-Gmv"/>
+                        <outlet property="enemy2" destination="rtF-HE-deI" id="afm-3k-gXq"/>
+                        <outlet property="enemy3" destination="XCJ-bK-SgF" id="UpZ-dJ-Qdb"/>
+                        <outlet property="enemy4" destination="wrF-d6-OvX" id="LNj-gF-0Me"/>
+                        <outlet property="enemy5" destination="T3b-9n-6vL" id="wWH-U7-Th4"/>
+                        <outlet property="gameOver" destination="YBY-lB-kE8" id="2pr-dR-n0n"/>
                         <outlet property="leftWall" destination="WLn-JN-phv" id="pQd-Qj-bI7"/>
+                        <outlet property="mover" destination="EmD-2U-5FK" id="VO1-21-yWN"/>
                         <outlet property="punch" destination="UPY-vi-y2z" id="p3j-A4-eoW"/>
                         <outlet property="rightWall" destination="uki-be-JfL" id="WWS-rL-i9D"/>
                         <outlet property="topWall" destination="ExJ-VZ-P3j" id="mNw-Pp-dDy"/>
@@ -62,8 +156,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="50cent.png" width="492" height="636"/>
+        <image name="8_bit_heart_stock_by_xquatrox-d4r844m.png" width="800" height="800"/>
         <image name="Boxing glove.png" width="512" height="512"/>
+        <image name="MelGibson.png" width="250" height="342"/>
+        <image name="adolph-hitler.png" width="500" height="500"/>
+        <image name="bolso.png" width="183" height="216"/>
         <image name="rainbow v.png" width="420" height="420"/>
         <image name="rainbow.png" width="420" height="420"/>
+        <image name="trump.png" width="512" height="512"/>
+        <image name="vladimir_putin_PNG45.png" width="1007" height="1091"/>
     </resources>
 </document>

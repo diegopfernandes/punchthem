@@ -13,9 +13,16 @@
 		9B301E8A1FDB381B00A44517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E891FDB381B00A44517 /* Assets.xcassets */; };
 		9B301E8D1FDB381B00A44517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E8B1FDB381B00A44517 /* LaunchScreen.storyboard */; };
 		9B301E951FDB528700A44517 /* Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B301E941FDB528700A44517 /* Bounce.swift */; };
-		9B301E981FDB53FF00A44517 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E971FDB53FF00A44517 /* rainbow.png */; };
-		9B301E9A1FDB557400A44517 /* rainbow v.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E991FDB557300A44517 /* rainbow v.png */; };
-		9B301E9C1FDB561D00A44517 /* Boxing glove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B301E9B1FDB561D00A44517 /* Boxing glove.png */; };
+		9BF31CB81FE1A13200FA5160 /* vladimir_putin_PNG45.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CAE1FE1A13000FA5160 /* vladimir_putin_PNG45.png */; };
+		9BF31CB91FE1A13200FA5160 /* rainbow v.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CAF1FE1A13000FA5160 /* rainbow v.png */; };
+		9BF31CBA1FE1A13200FA5160 /* trump.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB01FE1A13000FA5160 /* trump.png */; };
+		9BF31CBB1FE1A13200FA5160 /* 8_bit_heart_stock_by_xquatrox-d4r844m.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB11FE1A13000FA5160 /* 8_bit_heart_stock_by_xquatrox-d4r844m.png */; };
+		9BF31CBC1FE1A13200FA5160 /* adolph-hitler.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB21FE1A13000FA5160 /* adolph-hitler.png */; };
+		9BF31CBD1FE1A13200FA5160 /* MelGibson.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB31FE1A13100FA5160 /* MelGibson.png */; };
+		9BF31CBE1FE1A13200FA5160 /* bolso.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB41FE1A13100FA5160 /* bolso.png */; };
+		9BF31CBF1FE1A13200FA5160 /* 50cent.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB51FE1A13100FA5160 /* 50cent.png */; };
+		9BF31CC01FE1A13200FA5160 /* Boxing glove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB61FE1A13100FA5160 /* Boxing glove.png */; };
+		9BF31CC11FE1A13200FA5160 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF31CB71FE1A13200FA5160 /* rainbow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +34,16 @@
 		9B301E8C1FDB381B00A44517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B301E8E1FDB381B00A44517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B301E941FDB528700A44517 /* Bounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounce.swift; sourceTree = "<group>"; };
-		9B301E971FDB53FF00A44517 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = SOURCE_ROOT; };
-		9B301E991FDB557300A44517 /* rainbow v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainbow v.png"; sourceTree = SOURCE_ROOT; };
-		9B301E9B1FDB561D00A44517 /* Boxing glove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boxing glove.png"; sourceTree = SOURCE_ROOT; };
+		9BF31CAE1FE1A13000FA5160 /* vladimir_putin_PNG45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vladimir_putin_PNG45.png; sourceTree = "<group>"; };
+		9BF31CAF1FE1A13000FA5160 /* rainbow v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainbow v.png"; sourceTree = "<group>"; };
+		9BF31CB01FE1A13000FA5160 /* trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trump.png; sourceTree = "<group>"; };
+		9BF31CB11FE1A13000FA5160 /* 8_bit_heart_stock_by_xquatrox-d4r844m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8_bit_heart_stock_by_xquatrox-d4r844m.png"; sourceTree = "<group>"; };
+		9BF31CB21FE1A13000FA5160 /* adolph-hitler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adolph-hitler.png"; sourceTree = "<group>"; };
+		9BF31CB31FE1A13100FA5160 /* MelGibson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MelGibson.png; sourceTree = "<group>"; };
+		9BF31CB41FE1A13100FA5160 /* bolso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolso.png; sourceTree = "<group>"; };
+		9BF31CB51FE1A13100FA5160 /* 50cent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50cent.png; sourceTree = "<group>"; };
+		9BF31CB61FE1A13100FA5160 /* Boxing glove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boxing glove.png"; sourceTree = "<group>"; };
+		9BF31CB71FE1A13200FA5160 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +91,16 @@
 		9B301E961FDB53E700A44517 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9B301E971FDB53FF00A44517 /* rainbow.png */,
-				9B301E9B1FDB561D00A44517 /* Boxing glove.png */,
-				9B301E991FDB557300A44517 /* rainbow v.png */,
+				9BF31CB11FE1A13000FA5160 /* 8_bit_heart_stock_by_xquatrox-d4r844m.png */,
+				9BF31CB51FE1A13100FA5160 /* 50cent.png */,
+				9BF31CB21FE1A13000FA5160 /* adolph-hitler.png */,
+				9BF31CB41FE1A13100FA5160 /* bolso.png */,
+				9BF31CB61FE1A13100FA5160 /* Boxing glove.png */,
+				9BF31CB31FE1A13100FA5160 /* MelGibson.png */,
+				9BF31CAF1FE1A13000FA5160 /* rainbow v.png */,
+				9BF31CB71FE1A13200FA5160 /* rainbow.png */,
+				9BF31CB01FE1A13000FA5160 /* trump.png */,
+				9BF31CAE1FE1A13000FA5160 /* vladimir_putin_PNG45.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -143,12 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B301E9A1FDB557400A44517 /* rainbow v.png in Resources */,
-				9B301E981FDB53FF00A44517 /* rainbow.png in Resources */,
+				9BF31CB91FE1A13200FA5160 /* rainbow v.png in Resources */,
+				9BF31CBE1FE1A13200FA5160 /* bolso.png in Resources */,
+				9BF31CBD1FE1A13200FA5160 /* MelGibson.png in Resources */,
+				9BF31CBC1FE1A13200FA5160 /* adolph-hitler.png in Resources */,
+				9BF31CC11FE1A13200FA5160 /* rainbow.png in Resources */,
 				9B301E8D1FDB381B00A44517 /* LaunchScreen.storyboard in Resources */,
+				9BF31CBB1FE1A13200FA5160 /* 8_bit_heart_stock_by_xquatrox-d4r844m.png in Resources */,
+				9BF31CBA1FE1A13200FA5160 /* trump.png in Resources */,
 				9B301E8A1FDB381B00A44517 /* Assets.xcassets in Resources */,
 				9B301E881FDB381B00A44517 /* Main.storyboard in Resources */,
-				9B301E9C1FDB561D00A44517 /* Boxing glove.png in Resources */,
+				9BF31CBF1FE1A13200FA5160 /* 50cent.png in Resources */,
+				9BF31CB81FE1A13200FA5160 /* vladimir_putin_PNG45.png in Resources */,
+				9BF31CC01FE1A13200FA5160 /* Boxing glove.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
